@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Te amo </title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+            <div class = "aa">
+            <h1 class = "titulo" id="titulo"> </h1>
+            <div id="1" class="a"> 
+                 <div id="4"class="po">                  </div>
+                 <div id="2"class="b">                  </div>
+        </div>
+            <div id="r" class = "x"></div>
+           
+                      
+       
+        <div class = "d">
+
+            <form id = "formulario" class = "e">
+                <h2 id = "pregunta" class="pr"> ¿¿Como te llamas??<h1/>
+                <input id="nombre" type="text" placeholder="Ingresa aquí tu nombre" class="for">
+                <button id="boton" class="btn" type="submit" onclick = "capturar();"> aceptar</button>
+                
+            </form>
+        </div> </div>
+        <div class="partefinal" id="partefinal1">
+            <div class="partefinal3"id="partefinal2"></div>
+            <div class="partefinal5"id="partefinal"></div>
+            
+            <div class="imgf" id="imgf"> </div> </div>
+        
+        <script>
+        {
+
+            
+
+            function capturar(){
+                var nombre = document.getElementById("nombre").value;
+                mensaje =  ("hola " + nombre + ", mi niña hermosa.")
+                //console.log(mensaje)
+                document.getElementById("titulo").innerHTML = mensaje;
+                //quitar
+                var padre = document.getElementsByTagName("input")[0].parentNode;
+                padre.removeChild(document.getElementsByTagName("input")[0]);
+                var padre = document.getElementsByTagName("button")[0].parentNode;
+                padre.removeChild(document.getElementsByTagName("button")[0]);
+                var padre = document.getElementsByTagName("h2")[0].parentNode;
+                padre.removeChild(document.getElementsByTagName("h2")[0]);
+                
+                //parafo
+                var elemnt = document.createElement("p");
+                var contenido = document.createTextNode("Desde hace mucho tiempo as cido mi croch y no se como decirte ...... me da mamera escribir más, cuando te lo pida enserio pongo halgo más lidno :) ") 
+                elemnt.appendChild(contenido);
+                elemnt.setAttribute("class", "l")
+                document.getElementById("4").appendChild(elemnt) 
+                var parafo = document.createElement("p");
+                var cont = document.createTextNode("Quieres ser mi novia??") 
+                parafo.appendChild(cont);
+                parafo.setAttribute("class", "p")
+                document.getElementById("4").appendChild(parafo) 
+                //imagen
+                var imagen = document.createElement("img");
+                imagen.setAttribute("src", "dani.jpeg");
+                imagen.setAttribute("class", "f");
+                document.getElementById("r").appendChild(imagen);
+                // boton si
+                button2 = document.createElement("button");
+                var chi = document.createTextNode("Chi") ;
+                button2.appendChild(chi);
+                button2.setAttribute("id", "Chi");
+                button2.type = "rest" ;
+                button2.setAttribute("class", "chi");
+                button2.addEventListener("click", function (){
+                    var padre = document.getElementsByClassName("aa")[0].parentNode;
+                    padre.removeChild(document.getElementsByClassName("aa")[0]);
+                    //parafo
+                    var amo = document.createElement("h2");
+                    var cont = document.createTextNode("Heres hermosa te amo, y me encantas ........"); 
+                    amo.appendChild(cont);
+                    amo.setAttribute("class", "final");
+                    document.getElementById("partefinal2").appendChild(amo);
+                    var numero = document.createElement("p");
+                    var conte = document.createTextNode("llamame perciosa"); 
+                    numero.appendChild(conte);
+                    numero.setAttribute("class", "la");
+                    document.getElementById("partefinal").appendChild(numero)
+                    var numero = document.createElement("p");
+                    var conte = document.createTextNode("te amo, besos"); 
+                    numero.appendChild(conte);
+                    numero.setAttribute("class", "ha");
+                    document.getElementById("partefinal").appendChild(numero);
+                    //imagen
+                    var imagen = document.createElement("img");
+                    imagen.setAttribute("src", "dani1.jpeg");
+                    imagen.setAttribute("class", "imgg");
+                    document.getElementById("imgf").appendChild(imagen);
+                  });
+                document.getElementById("2").appendChild(button2) ;
+                //botton de no
+                var button3 = document.createElement("button");
+                var ño = document.createTextNode("Ño") ;
+                button3.appendChild(ño);
+                button3.setAttribute("id", "Ño");
+                button3.type = "rest" ;
+                button3.setAttribute("class", "ño");
+                button3.addEventListener("click", function ()
+                    {alert("Esta opcion no esta disponible, porfabor pongase seria.");
+                  });
+                document.getElementById("2").appendChild(button3) ;
+            // boton si
+            
+    
+        }}
+
+        </script>
+
+        <script>
+  
+        </script>
+       
+    </body>
+    
+<html>

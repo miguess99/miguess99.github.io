@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;}
+body {
+        background: #26cf678a;
+        
+              
+    }
+div, h1{
+  width:90%;
+  max-width:1000px;
+  margin: 20px auto;
+  
+}
+.e { margin: 100px;}
+.pr {font-size: 50px; 
+    font-family: "PT Sans"; 
+    margin: 0% 12%;
+}
+.for{font-family: inherit;
+    font-size: 60%;
+    width : 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 30px;
+    margin: 10px 20%;}
+.btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px -20%;  }  
+.aa{    background-color: rgb(19, 226, 226);}
+.titulo {font-size: 50px; 
+    font-family: "PT Sans"; 
+    margin: 0% 20%;}
+.a {font-size: 25px; 
+    font-family: "PT Sans"; 
+    width: 60%;
+    float: left
+}
+
+.f {width: 30%;
+    margin: 0px 30px;
+    margin-bottom: 30px
+}
+.p,.l{margin:0px 30px }
+.b{float: left; }
+.chi{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 5px;
+    margin:0px 80px; }
+.ño{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 5px;
+    margin:0px 30px; }
+.partefinal{width:90%;
+    max-width:1000px;
+    margin: 20px auto;
+    background-color: rgb(19, 226, 226);}
+.final{font-size: 40px; 
+    font-family: "PT Sans";
+    text-align:center;
+    margin: 0% 15%; 
+}
+.partefinal5 {font-size: 30px; 
+    font-family: "PT Sans"; 
+    width: 60%;
+    float: left
+}
+.ha,.la{margin:0px 100px }
+.imgg {width: 30%;
+    margin: 0px 10px;
+    margin-bottom: 30px}
